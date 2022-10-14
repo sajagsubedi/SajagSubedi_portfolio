@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --main-logincolor: linear-gradient(to right, #ff105f, #ffad06);
+}
+
+.hero {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+}
+
+.form-box {
+  width: 390px;
+  height: 480px;
+  margin: 85px auto;
+  background: #fff;
+  padding: 0;
+  box-shadow: 5px 5px 10px 3px rgb(29, 29, 29);
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.button-box {
+  width: 220px;
+  height: 10px;
+  border-radius: 30px;
+}
+
+.button-box a {
+  padding: 10px 30px;
+  background: transparent;
+  top: 0;
+  font-size: 14px;
+  border-radius: 30px;
+  color: black;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  text-decoration: none;
+  outline: none;
+}
+
+.b1 a {
+  background: var(--main-logincolor);
+  box-shadow: 0 0 20px 9px #ff61241f;
+
+}
+
+.button-box a:hover {
+  color: #ff105f;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 100%;
+  background: transparent;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.input-group {
+  top: 180px;
+  width: 280px;
+  margin: 50px;
+  transition: .5s;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  /* height: 40px; */
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  /* padding: 0 0.4rem; */
+  /* position: relative; */
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 40px;
+  color: #635757;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #635757;
+  font-weight: 500;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.chech-box {
+  margin: 30px 10px 30px 0;
+}
+
+span {
+  color: #777;
+  font-size: 14px;
+  bottom: 0px;
+
+}
+
+#login {
+  left: 50px;
+}
+
+#register {
+  left: 450px;
+}

@@ -1,0 +1,166 @@
+@media(max-width: 1000px) {
+  .navigation {
+    display: flex;
+    height: 50px;
+    width: 100%;
+  }
+
+
+  .navigation .userBx {
+    width: calc(100% - 70px);
+    height: 50px;
+  }
+
+  .navigation.active .userBx {
+    width: calc(100% - 70px);
+    transition-delay: 0s;
+  }
+
+  .menu {
+    display: list-item;
+    margin-top: 60px;
+  }
+
+  .menu li a {
+    padding: 0;
+  }
+
+  .menu li .signup {
+    width: 75px;
+  }
+
+  .navigation .menuToggle {
+    display: block;
+    margin: 30px 0 0 0;
+  }
+
+  main {
+    min-height: 50vh;
+  }
+
+  .search {
+    left: 0px;
+    margin: 5px;
+  }
+
+  .submit {
+    justify-content: left;
+    margin: 5px 0px 10px;
+  }
+
+  .form {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    display: block;
+  }
+
+.intro::after{
+height:70vh;
+}
+.blog-item{
+width:90%;
+}
+.blog-title {
+font-size:1.2rem;
+}
+.blog-para{
+font-size:1rem;
+}
+
+}
+@media only screen and (max-width: 800px) {
+  .navigation {
+    display: flex;
+    height: 50px;
+    width: 100%;
+  }
+
+  .navigation.active {
+    width: 100%;
+    height: 350px;
+    transition: width 0.s, height 0s;
+    transition-delay: 0s, 0s;
+  }
+
+  .navigation .userBx {
+    width: calc(100% - 70px);
+    height: 50px;
+  }
+
+  .navigation .userBx .imgBx {
+    position: relative;
+    min-width: 50px;
+    height: 50px;
+    border: 2px solid var(--white-shade);
+    background: var(--white-shade);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .navigation .userBx .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #home-icon {
+    position: relative;
+    display: block;
+    line-height: 65px;
+    font-size: 1.5em;
+    height: 55px;
+    left: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55%;
+    color: var(--white-shade);
+    margin: 3px;
+  }
+
+  .menu {
+    display: block;
+    margin-top: 60px;
+  }
+
+}
+
+#scroll-top {
+  height: 43px;
+  width: 43px;
+}
+@media only screen and (max-width: 575px) {
+  .navigation {
+    display: flex;
+    height: 50px;
+    width: 100%;
+  }
+
+  .navigation.active {
+    width: 100%;
+    height: 355px;
+    transition: width 0.s, height 0s;
+    transition-delay: 0s, 0s;
+  }
+
+  .navigation .userBx {
+    width: calc(100% - 70px);
+    height: 50px;
+  }
+
+  .navigation.active .userBx {
+    width: calc(100% - 70px);
+    transition-delay: 0s;
+  }
+
+  .menu {
+    display:list-item;
+    margin-top: 60px;
+  }
+
+  footer {
+    padding: 7.5rem 3rem;
+  }
+      }
